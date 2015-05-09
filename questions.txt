@@ -1,0 +1,6 @@
+Questions that I want to ask:
+
+1. Change background per page?
+2. what goes on home page
+3. Categories more/less/rename?
+
