@@ -11,13 +11,58 @@ body {
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .full {
-    background: url('../bg1.jpg') no-repeat center center fixed;
+   background: url('../media/backgrounds/bgriver.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+} 
+
+.login {
+   background: url('../media/backgrounds/notresp.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+} 
+.grey {
+    background-color: hsl(0,0%,20%);
+	opacity: .85;
+	color: hsl(0,0%,85%);
+	margin-bottom: 0;
+
+}
+.greytext {
+    color: hsl(0,0%, 85%);
 }
 
-.grey {
-    background-color: grey;
+
+body {
+   background: url('../media/backgrounds/notresp.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.myBackground {
+  background-color: rgba(255,255,255, 0.0);
+  color: hsl(0,0%,85%);;
+}
+.myBackground h1, .myBackground h3 {
+    margin-left: 15px;
+}
+.no-bg {
+	background-color: rgba(0,0,0,1);
+	color: hsl(0,100%,100%);
+	margin-bottom: 0;
+}
+.els {
+	padding-left: 15px;
+}
+.btns {
+    margin-left: 15px;
+}
+.no-pad{
+    padding: 0 0 0 0;
 }
